@@ -5,7 +5,7 @@ This is the intial script from FigShare's team. It is so simple and easy to use 
 
 The bash script needs editing so you NEED to enter your personal token generated in FigShare's personal area (Applications bit). Also, as is, it will only work with your Figshare STAGING environment and you would have to change the BASE_URL from api.figsh.com to api.figshare.com to be able to actually do some bad to your live environment.
 
-Please note that you can only add one file per article although the idea is for you to twick it any way you want it. You CAN ADD many files to an article with the API.
+Please note that you can only add one file per article although the idea is for you to twick it any way you want it. Please understand that you CAN ADD many files to an article with the API.
 
 The history behind this script is I used it to upload aroung 1 TBytes of research datasets binaries to the FigShare's King's College London tenancy. The creation of the descriptive metadata was done using another tool (SSIS). I generated a log file that was used to cerify the checksums of the uploaded files by my colleagues that took care of the previous repository.  
 
