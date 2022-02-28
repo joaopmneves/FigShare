@@ -9,8 +9,8 @@ Please note that you can only add one file as is although the idea is for you to
 
 The history behind this script is I used it to upload aroung 1 TBytes of research datasets binaries to the FigShare's King's College London tenancy. The creation of the descriptive metadata was done using another tool (SSIS).
 
-Issues I found in inital script that were (amended):
-- spliting did not allow file over 100x10Mb. (switched the for loop to acommodate 1000 so 9999 10Mbyte chunks)
+Issues I found in inital script  were (amended):
+- spliting did not allow files over 999x10Mb. (switched the for loop to 9999 10Mbyte chunks)
 - filenames could not contains "'" single comas. (script uses filename input from file instead of from stdin)
 
 To use it, copy it to a Linux machine with Curl installed.
