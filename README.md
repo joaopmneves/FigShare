@@ -1,4 +1,4 @@
-# FigShare
+# FigShare Bash example
 FigShare twicked API bash sample
 
 This is the intial script from FigShare's team. It is so simple and easy to use that I could no resist to share. Please use it at your own risk. I take no responsabilities or liabilities! You've been warned :).
