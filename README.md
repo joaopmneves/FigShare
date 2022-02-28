@@ -7,10 +7,10 @@ The bash script needs editing so you NEED to enter your personal token generated
 
 Please note that you can only add one file per article although the idea is for you to twick it any way you want it. Please understand that you CAN ADD many files to an article with the API.
 
-The history behind this script is I used it to upload aroung 1 TBytes of research datasets binaries to the FigShare's King's College London tenancy. The creation of the descriptive metadata was done using another tool (SSIS). I generated a log file that was used to verify the checksums of the uploaded files by my colleagues that took care of the previous repository.  
+The history behind this script is I used it to upload aroung 1 TBytes of research datasets binaries to the FigShare's King's College London tenancy. The creation of the descriptive metadata was done using another tool (SSIS). 
 
-There were some issues I found in inital script  that were amended:
-- spliting did not allow files over 999x10Mb. (switched the for loop to 9999x10Mbyte chunks)
+There were some issues I found in inital script:
+- spliting did not allow files over 999x10Mb (9Gbytes). (switched the for loop to 9999x10Mbyte chunks)
 - filenames could not contains "'" single quote. (script uses filename input from file instead of from stdin)
 
 To use it, copy it to a Linux machine with Curl installed.
